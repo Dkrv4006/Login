@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:40px;
+    font-size:15px;
+}
+
+.container{
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius:15px;
+    background-color:rgb(252, 252, 252);
+    padding: 35px;
+    width:36%;
+    height:555px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.3),0 0 5px rgba(128, 128, 128, 0.3);
+}
+
+.h{
+    width: 12%;
+    border: 0px solid rgb(228, 0, 228);
+    padding: 3px;
+    border-radius: 2px;
+    background-image:linear-gradient( to right, rgb(255, 59, 255),rgb(134, 0, 134));
+}
+
+
+button{
+    position: relative;
+    left:32%;
+}
+
+button{
+    padding: 10px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: whitesmoke;
+    border-radius: 49%;
+    box-shadow: 0 2px rgba(141, 141, 141, 0.39);
+    width:38px;
+    margin:4px;
+}
+
+button:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+button:active{
+    box-shadow: 0 2px rgba(177, 177, 177, 0.514);
+    transform: translateY(3px);
+}
+
+.h{
+    text-align:left;
+}
+
+.log{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+select{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:3px;
+}
+
+
+input[type="checkbox"]{
+    width: 20px;
+}
+
+#search{
+    text-decoration: solid;
+    float:right;
+    color: black;
+}
+
+.use{
+    text-align: center;
+}
+
+input[type="submit"]{
+    box-shadow: black;
+    border:0px solid purple;
+    width: 70%;
+    position: relative;
+    left: 55px;
+    font-size:20px;
+    height: 45px;
+    color: white;
+    background-image:linear-gradient( to right, rgb(255, 59, 255),rgb(122, 0, 122));
+    border-radius: 30px;
+    box-shadow: 0 2px rgba(141, 141, 141, 0.39);
+}
+
+input[type="submit"]:hover{
+    background-image:linear-gradient( to right, rgb(255, 25, 255),rgb(85, 0, 85));
+}
+
+input[type="submit"]:active{
+    box-shadow: 0 2px rgba(177, 177, 177, 0.514);
+    transform: translateY(3px);
+}
+
+.p{
+    display:inline;
+    cursor: pointer;
+}
+
+
